@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/framzik/geek-eshop-08-04/shop-database</OriginalElement>
+  <nodes>
+    <node x="0.0" y="500.0">ru.geekbrains.persist.ProductRepository</node>
+    <node x="0.0" y="806.0">ru.geekbrains.persist.OrderRepository</node>
+    <node x="0.0" y="298.0">ru.geekbrains.persist.model.Role</node>
+    <node x="227.0" y="911.0">ru.geekbrains.Utils</node>
+    <node x="592.0" y="298.0">ru.geekbrains.persist.model.Picture</node>
+    <node x="389.0" y="653.0">ru.geekbrains.persist.ProductSpecification</node>
+    <node x="341.0" y="0.0">ru.geekbrains.persist.model.OrderLineItem</node>
+    <node x="357.0" y="806.0">ru.geekbrains.persist.CategoryRepository</node>
+    <node x="786.0" y="0.0">ru.geekbrains.persist.model.Category</node>
+    <node x="0.0" y="911.0">ru.geekbrains.persist.RoleRepository</node>
+    <node x="251.0" y="298.0">ru.geekbrains.persist.model.Order</node>
+    <node x="0.0" y="0.0">ru.geekbrains.persist.model.Product</node>
+    <node x="494.0" y="500.0">ru.geekbrains.persist.UserRepository</node>
+    <node x="624.0" y="806.0">ru.geekbrains.persist.PictureRepository</node>
+    <node x="563.0" y="0.0">ru.geekbrains.persist.model.User</node>
+    <node x="0.0" y="653.0">ru.geekbrains.persist.UserSpecifications</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.8993775933609959" showDependencies="false" x="497.0" y="472.0" />
+  <SelectedNodes>
+    <node>ru.geekbrains.Utils</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

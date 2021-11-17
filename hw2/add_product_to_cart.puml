@@ -1,0 +1,21 @@
+---
+@startuml
+box "Browser" #LightBlue
+actor User as user
+end box
+box "Shop" #LightGreen
+participant "Страница с товарами" as product
+participant "Корзина" as cart
+end box
+user -> product: get
+activate product
+product ->user: response
+user -> product: add in cart
+product -> cart:    put product
+deactivate product
+activate cart
+user-> cart: get
+cart->user: response
+deactivate cart
+
+@enduml

@@ -1,0 +1,20 @@
+---
+@startuml
+box "Browser" #LightBlue
+actor User as user
+end box
+box "Shop" #LightGreen
+participant "Страница с товарами" as product
+participant "shop-app" as shop
+end box
+
+user -> product: get
+activate product
+product -> shop: is auth?
+activate shop
+shop -> product: yes
+deactivate shop
+product -> user: responce
+deactivate product
+
+@enduml
