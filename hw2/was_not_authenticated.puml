@@ -1,0 +1,40 @@
+---
+@startuml
+box "Browser" #LightBlue
+actor User as user
+end box
+box "Shop" #LightGreen
+participant "Страница с товарами" as product
+participant "shop-app" as shop
+participant "Страница аутентификации" as auth
+end box
+
+user -> product: get
+activate product
+product -> shop: is auth?
+activate shop
+shop -> auth : not auth
+destroy shop
+destroy product
+activate auth
+auth -> user: Введите логин и пароль
+user -> auth: data
+auth -> shop: data
+deactivate auth
+activate shop
+shop -> product: auth is valid
+deactivate shop
+activate product
+product -> user: responce
+deactivate product
+... Auth not valid ...
+shop --> auth: not valid
+activate shop
+activate auth
+auth --> user: Введите логин и пароль
+user --> auth: data
+auth --> shop: data
+deactivate shop
+deactivate auth
+...  ...
+@enduml

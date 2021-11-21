@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/framzik/geek-eshop-08-04/shop-admin-app</OriginalElement>
+  <nodes>
+    <node x="0.0" y="206.0">ru.geekbrains.service.UserServiceImpl</node>
+    <node x="1081.0" y="0.0">ru.geekbrains.service.CategoryService</node>
+    <node x="414.0" y="182.0">ru.geekbrains.service.ProductServiceImpl</node>
+    <node x="626.0" y="826.0">ru.geekbrains.controller.dto.ProductDto</node>
+    <node x="903.0" y="826.0">ru.geekbrains.controller.dto.UserListParams</node>
+    <node x="1035.0" y="1254.0">ru.geekbrains.controller.StringToCategoryDtoConverter</node>
+    <node x="1142.0" y="826.0">ru.geekbrains.controller.dto.UserDto</node>
+    <node x="0.0" y="1124.0">ru.geekbrains.security.UserAuthService</node>
+    <node x="370.0" y="1124.0">ru.geekbrains.ShopAdminAppApplication</node>
+    <node x="326.0" y="1359.0">ru.geekbrains.controller.MainPage</node>
+    <node x="543.0" y="1359.0">ru.geekbrains.controller.NotFoundException</node>
+    <node x="863.0" y="504.0">ru.geekbrains.controller.UserController</node>
+    <node x="0.0" y="504.0">ru.geekbrains.controller.ProductController</node>
+    <node x="0.0" y="0.0">ru.geekbrains.service.UserService</node>
+    <node x="719.0" y="1124.0">ru.geekbrains.controller.LoginController</node>
+    <node x="0.0" y="1254.0">ru.geekbrains.security.SecurityConfig</node>
+    <node x="0.0" y="826.0">ru.geekbrains.controller.CategoryController</node>
+    <node x="1081.0" y="206.0">ru.geekbrains.service.CategoryServiceImpl</node>
+    <node x="957.0" y="1124.0">ru.geekbrains.controller.dto.CategoryDto</node>
+    <node x="663.0" y="1254.0">ru.geekbrains.ShopAdminAppApplicationTests</node>
+    <node x="0.0" y="1359.0">ru.geekbrains.controller.StringToRoleDtoConverter</node>
+    <node x="1390.0" y="826.0">ru.geekbrains.controller.dto.RoleDto</node>
+    <node x="414.0" y="0.0">ru.geekbrains.service.ProductService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.geekbrains.service.UserServiceImpl" target="ru.geekbrains.service.UserService" relationship="REALIZATION">
+      <point x="0.0" y="-126.5" />
+      <point x="0.0" y="78.0" />
+    </edge>
+    <edge source="ru.geekbrains.service.CategoryServiceImpl" target="ru.geekbrains.service.CategoryService" relationship="REALIZATION">
+      <point x="0.0" y="-90.5" />
+      <point x="0.0" y="78.0" />
+    </edge>
+    <edge source="ru.geekbrains.service.ProductServiceImpl" target="ru.geekbrains.service.ProductService" relationship="REALIZATION">
+      <point x="0.0" y="-102.5" />
+      <point x="0.0" y="66.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6025017373175816" showDependencies="false" x="798.0" y="709.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

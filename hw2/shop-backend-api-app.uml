@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/framzik/geek-eshop-08-04/shop-backend-api-app</OriginalElement>
+  <nodes>
+    <node x="749.0" y="754.0">ru.geekbrains.WebSocketConfig</node>
+    <node x="0.0" y="480.0">ru.geekbrains.service.dto.LineItem</node>
+    <node x="874.0" y="134.0">ru.geekbrains.service.ProductServiceImpl</node>
+    <node x="509.0" y="480.0">ru.geekbrains.controller.dto.ProductDto</node>
+    <node x="0.0" y="933.0">ru.geekbrains.controller.OrderController</node>
+    <node x="0.0" y="1217.0">ru.geekbrains.RabbitMqConfig</node>
+    <node x="411.0" y="0.0">ru.geekbrains.service.CartService</node>
+    <node x="255.0" y="480.0">ru.geekbrains.controller.dto.OrderLineItemDto</node>
+    <node x="0.0" y="1087.0">ru.geekbrains.controller.ProductController</node>
+    <node x="751.0" y="480.0">ru.geekbrains.controller.CartController</node>
+    <node x="0.0" y="0.0">ru.geekbrains.service.OrderService</node>
+    <node x="0.0" y="754.0">ru.geekbrains.SessionConfig</node>
+    <node x="576.0" y="1217.0">ru.geekbrains.controller.dto.AllCartDto</node>
+    <node x="874.0" y="0.0">ru.geekbrains.service.ProductService</node>
+    <node x="953.0" y="1346.0">ru.geekbrains.controller.LoginResource</node>
+    <node x="358.0" y="933.0">ru.geekbrains.ShopBackendApiAppApplication</node>
+    <node x="511.0" y="754.0">ru.geekbrains.controller.dto.AddLineItemDto</node>
+    <node x="892.0" y="1087.0">ru.geekbrains.security.UserAuthService</node>
+    <node x="411.0" y="207.0">ru.geekbrains.service.CartServiceImpl</node>
+    <node x="0.0" y="134.0">ru.geekbrains.service.OrderServiceImpl</node>
+    <node x="835.0" y="1217.0">ru.geekbrains.service.dto.OrderMessage</node>
+    <node x="1055.0" y="1217.0">ru.geekbrains.controller.dto.CategoryDto</node>
+    <node x="1142.0" y="480.0">ru.geekbrains.controller.dto.OrderDto</node>
+    <node x="535.0" y="1346.0">com.example.shopbackendapiapp.ShopBackendApiAppApplicationTests</node>
+    <node x="0.0" y="1346.0">ru.geekbrains.security.SecurityConfiguration</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.geekbrains.service.ProductServiceImpl" target="ru.geekbrains.service.ProductService" relationship="REALIZATION">
+      <point x="0.0" y="-54.5" />
+      <point x="0.0" y="42.0" />
+    </edge>
+    <edge source="ru.geekbrains.service.OrderServiceImpl" target="ru.geekbrains.service.OrderService" relationship="REALIZATION">
+      <point x="0.0" y="-150.5" />
+      <point x="0.0" y="42.0" />
+    </edge>
+    <edge source="ru.geekbrains.service.CartServiceImpl" target="ru.geekbrains.service.CartService" relationship="REALIZATION">
+      <point x="0.0" y="-78.5" />
+      <point x="0.0" y="78.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6079943899018233" showDependencies="false" x="748.0" y="703.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
